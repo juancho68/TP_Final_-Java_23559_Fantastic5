@@ -10,7 +10,7 @@ public class Conexion {
     
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/integrador_cac";
     private static final String JDBC_USR = "root";
-    private static final String JDBC_PASS = "$1st3m4S";
+    private static final String JDBC_PASS = "****"; //agregar pass de la DB
     
     
     public static Connection getConexion() throws SQLException {
