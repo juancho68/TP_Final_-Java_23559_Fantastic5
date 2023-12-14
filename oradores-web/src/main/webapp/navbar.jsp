@@ -14,7 +14,7 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li>
             <a class="navbar-brand" href="#">
-            <img src="codoacodo.png" alt="Logo Codo a Codo" width="115" height="65">
+            <img src="../img/codoacodo.png" alt="Logo Codo a Codo" width="115" height="65">
             </a>
           </li>
           <li class="nav-item">
