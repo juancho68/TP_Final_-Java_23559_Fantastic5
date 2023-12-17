@@ -8,7 +8,7 @@ public class AdministradorDeConexiones {
 	public static Connection getConnection() {
 		String url = "jdbc:mysql://127.0.0.1:3306/integrador_cac";
 		String username = "root";
-		String password = "***";  //usar pa pass de la DB local
+		String password = "***";  //usar la pass de la DB local
 		
 		String driverName = "com.mysql.cj.jdbc.Driver";
 		/*
