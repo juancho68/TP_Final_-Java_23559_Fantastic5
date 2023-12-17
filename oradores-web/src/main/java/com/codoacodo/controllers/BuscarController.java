@@ -18,14 +18,15 @@ public class BuscarController extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
 		String clave = req.getParameter("clave");
+		String searchby = req.getParameter("searchby");
 		
-		//Crear ProductoDAO
+		//Crear OradorDAO
 		OradorDAO dao = new OradorDAO();
 		
-		//invocar el metodo buscar(clave)
-		List<Orador> listado = dao.buscar(clave);
+		//invocar el metodo buscar(clave, searchby)
+		List<Orador> listado = dao.buscar(clave,searchby);
 		
-		//guardar en el request el producto
+		//guardar en el request el orador
 		req.setAttribute("listado", listado);
 		
 		//ir a la siguiente pagina
