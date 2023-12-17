@@ -17,10 +17,10 @@ public class ListadoController extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		//crear la instancia de ProductoDAO
+		//crear la instancia de OradorDAO
 		OradorDAO dao = new OradorDAO();
 		
-		//invocar al metodo listarProductos()
+		//invocar al metodo listarOradores()
 		List<Orador> listado = dao.listarOradores();
 		
 		//grabar el listado en el request para que lo vea la siguiente pagina
