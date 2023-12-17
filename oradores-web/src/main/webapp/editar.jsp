@@ -22,32 +22,39 @@
                         <form method="POST" class="container"
                                 action="<%=request.getContextPath()%>/api/EditarController">
                                 <div class="mb-3">
-                                  <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                  <input name="nombre"
-                                        value="<%=orador.getNombre()%>"  
-                                        type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" maxlength="40">
+                                  <!--<label for="id" class="form-label">Id</label>-->
+                                  <input name="id" hidden
+                                        value="<%=orador.getIdOrador()%>"  
+                                        type="text" class="form-control" id="id" placeholder="Id">
                                 </div>
                                 <div class="mb-3">
-                                  <label for="exampleFormControlInput2" class="form-label">Apellido</label>
+                                  <label for="nombre" class="form-label">Nombre</label>
+                                  <input name="nombre" 
+                                        value="<%=orador.getNombre()%>"  
+                                        type="text" class="form-control" id="nombre" placeholder="Nombre" maxlength="40" required="">
+                                </div>
+                                <div class="mb-3">
+                                  <label for="apellido" class="form-label">Apellido</label>
                                   <input name="apellido"
                                         value="<%=orador.getApellido()%>"  
-                                        type="text" class="form-control" id="exampleFormControlInput2" placeholder="Apellido" maxlength="40">
+                                        type="text" class="form-control" id="apellido" placeholder="Apellido" maxlength="40" required="">
                                 </div>
                                 <div class="mb-3">
-                                  <label for="exampleFormControlInput3" class="form-label">Mail</label>
+                                  <label for="mail" class="form-label">Mail</label>
                                   <input name="mail"
                                         value="<%=orador.getMail()%>"  
-                                        type="text" class="form-control" id="exampleFormControlInput3" placeholder="Mail" maxlength="40">
+                                        type="text" class="form-control" id="mail" placeholder="Mail" maxlength="40" required="">
                                 </div>                                    
                                 <div class="mb-3">
-                                  <label for="exampleFormControlInput4" class="form-label">Tema</label>
+                                  <label for="tema" class="form-label">Tema</label>
                                   <input name="tema"
                                         value="<%=orador.getTema()%>"  
-                                        type="text" class="form-control" id="exampleFormControlInput4" placeholder="Tema" maxlength="50">
+                                        type="text" class="form-control" id="tema" placeholder="Tema" maxlength="50" required="">
                                 </div>
-                                <button class="btn btn-primary">
-                                    Grabar
-                                </button>
+                                <div>
+                                    <button class="btn btn-primary bi bi-person-check-fill"> Grabar</button>
+                                    <br>
+                                </div>
                         </form>
                     </div> 
                 </section>
