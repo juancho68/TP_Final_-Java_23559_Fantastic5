@@ -42,10 +42,10 @@ public class EditarController extends HttpServlet {
 		String tema = req.getParameter("tema");
 
 		
-		//Crear ProductoDAO
+		//Crear OradorDAO
 		OradorDAO dao = new OradorDAO();
 		
-		//invocar actualizarProducto(params)
+		//invocar actualizarOrador(params)
 		dao.actualizarOrador(id_orador, nombre, apellido, mail, tema);
 
 		//ir a la siguiente pagina
