@@ -14,7 +14,7 @@
         <main>
                 <div class="container">
                         <section>
-                                <h1>ABM de productos </h1>
+                                <h1 class="my-5 text-center">ABM de productos <i class="bi bi-house"></i> </h1>
                         </section>
                 </div>
         </main>
