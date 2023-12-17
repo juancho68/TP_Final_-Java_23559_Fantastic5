@@ -25,13 +25,13 @@ public class CreateController extends HttpServlet {
                 String tema = req.getParameter("tema");
                 //String fecha_alta = req.getParameter("fecha_alta");
 		
-		//crear ProductoDAO
+		//crear OradorDAO
 		OradorDAO dao = new OradorDAO();
 		
 		//ejecutar el metodo crearProducto(parametros...)
 		dao.crearOrador(nombre, apellido, mail, tema);
 		
-		//ctrl+shit+o
+		
 		//ir a la siguiente pagina
 		resp.sendRedirect(req.getContextPath()+"/api/ListadoController");
 	}
