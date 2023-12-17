@@ -7,14 +7,14 @@
                 <p>Scardino Juan Luis</p>
                 <p>Celli María Fernanda</p>
                 <p>Toro Mario</p>
-                <p>Santiago Mordeglia</p>
+                <p>Mordeglia Santiago</p>
                 <p>Figueroa Juan Pablo</p>
             </div>
 
             <div class="col-md-2 mx-auto mt-5">
                 <h5 class="text-uppercase font-weigth-bold text-primary">Contacto</h5>
                 <hr class="mb-4">
-                <p><i class="fas fa-home me-3"></i> Argentina, Buenos Aires</p>
+                <p><i class="fas fa-home me-3"></i> Argentina, Bs As</p>
                 <p><i class="fas fa-envelope me-3"></i>@fantasticfive</p>
                 <p><i class="fas fa-phone me-3"></i> 11-55555555</p>
             </div>
