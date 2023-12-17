@@ -142,7 +142,7 @@ public class OradorDAO {
 	}
 	
 	/*metodos del crud*/
-	public List<Orador> buscar(String clave) {
+	public List<Orador> buscar(String clave, String searchby) {
 		String sql = "SELECT * FROM oradores WHERE "+searchby+" LIKE '%"+clave+"%' ";
 		
 		//Connection
